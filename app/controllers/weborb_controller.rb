@@ -29,6 +29,9 @@ require 'weborb/context'
 
 class WeborbController < ApplicationController
 
+  def qq
+    "aaaaaaaaa"
+  end
   def index
     input = Array.new
     request.raw_post.each_byte {|byte| input.push byte }

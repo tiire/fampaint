@@ -30,7 +30,7 @@ require 'weborb/context'
 class WeborbController < ApplicationController
 
   def qq
-    "aaaaaaaaa"
+    render_text "aaaaaaaaa"
   end
   def index
     input = Array.new
